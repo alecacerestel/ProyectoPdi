@@ -29,10 +29,22 @@ Si un objeto, como una pelota, se mueve de manera notable, generará grande camb
 Encontramos un proyecto bastante similar, el cual enseñaba a una computadora a seguir una imagen. Nos parece algo muy útil, pero no entendemos muy bien esta tecnología ni cómo debemos entrenarla. (Dejar el link)
 
 
-# Requisitos del sistema y usuarios
+# Requisitos del sistema 
+EN PROCESO
+
+# usuarios
+Ya que nuestro proyecto se enfoca en el volleyball, los usuariso esperados serán participes de este deporte. 
+
+## Árbitros:
+Los árbitros son el usuario final principal, ya que, utilizarían el sistema para tomar decisiones precisas en situaciones que lo ameriten.
+
+## Entrenadores y personal técnico: 
+Todo el personal de un equipo debería poder acceder a este sistema, con el objetivo de revisar y analizar el rendimiento del equipo, asismismo identificar momentos claves. 
 
 # Acerca de los archivos
+Cuando tengamos archivos del proyecto aqui se encontrará una pequeña descripción de cada uno.
 
 # Links asociados
+Aquí se encontrarán links a distintos repositorios o información que nos pueda ser relevante para el proyecto. 
 
 # En otra pestaña estará la plani del proyecto y diseño de la solución
