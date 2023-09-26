@@ -13,6 +13,21 @@ Similar al VAR del fútbol, este sistema utiliza cámaras y software para determ
 
 
 # Posible solución
+Como equipo planteamos la siguiente solución. Desarrollar un sistema de selección de frames en videos mediante el cual podremos extraer el momento de contacto entre la pelota y la superficie. Esta solución se basará en procesamiento de imágenes para proporcionar un frame de alta calidad que capture el instante de la interacción.
+
+# Estado del arte/técnica y sus referencias
+## Filtrado de Imágenes:
+Utilizar filtros para realzar características específicas. Por ejemplo, se pueden aplicar filtros para resaltar bordes y cambios en la intensidad de los colores. (AQUI AGREGREN NOMBRE DE FILTROS UTILEZ Y LA FOTO DE LA PPT)
+
+## Segmentación de Objetos: 
+Si segmentamos una imagen del video en la cual está nuestro punto de interés, estaremos aislando la pelota del fondo de la cancha en el video. Esto simplifica la tarea de identificar cuándo la pelota está en contacto con la línea.
+
+## Cambio de posición:
+Si un objeto, como una pelota, se mueve de manera notable, generará grande cambios en los píxeles de la imagen entre un frame y el siguiente. Por lo que, sabiendo esto, podriamos desarrollar un algoritmo capaz que identificar estos cambios.
+
+## Deep learning (Opcional, lo estamos conversando):
+Encontramos un proyecto bastante similar, el cual enseñaba a una computadora a seguir una imagen. Nos parece algo muy útil, pero no entendemos muy bien esta tecnología ni cómo debemos entrenarla. (Dejar el link)
+
 
 # Requisitos del sistema y usuarios
 
