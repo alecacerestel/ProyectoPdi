@@ -51,9 +51,13 @@ Los árbitros son el usuario final principal, ya que, utilizarían el sistema pa
 * Entrenadores y personal técnico: 
 Todo el personal de un equipo debería poder acceder a este sistema, con el objetivo de revisar y analizar el rendimiento del equipo, asismismo identificar momentos claves. 
 
+# Planificacion del proyecto
 
+## Objetivo general
+## Objetivos Específicos
+## Actividades y logros
+## Carta Gantt.
 
 # Acerca de los archivos
 Cuando tengamos archivos del proyecto aqui se encontrará una pequeña descripción de cada uno.
 
-# En otra pestaña estará la plani del proyecto y diseño de la solución
