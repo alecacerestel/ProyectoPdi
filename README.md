@@ -17,13 +17,13 @@ Como equipo planteamos la siguiente solución. Desarrollar un sistema de selecci
 
 ## Estado del arte/técnica y sus referencias
 * Filtrado de Imágenes:
-Utilizar filtros para realzar características específicas. Por ejemplo, se pueden aplicar filtros para resaltar bordes y cambios en la intensidad de los colores. (AQUI AGREGREN NOMBRE DE FILTROS UTILEZ Y LA FOTO DE LA PPT)
+Utilizar filtros para realzar características específicas. Por ejemplo, se pueden aplicar filtros para resaltar bordes, como los filtros Sobel, Canny o Laplacian, o para detectar cambios  en la intensidad de los colores, como por ejemplo, la funcion inRange de openCV que ayuda a la segmentacion del balon por su color. Cabe mencionar que tambien se hara uso del filtrado de ruido, y para esto se usara el filtro Gaussiano, pues de momento no se prevee un exceso de sal y pimienta en los fotogramas (AQUI AGREGREN LA FOTO DE LA PPT)
 
 * Segmentación de Objetos: 
-Si segmentamos una imagen del video en la cual está nuestro punto de interés, estaremos aislando la pelota del fondo de la cancha en el video. Esto simplifica la tarea de identificar cuándo la pelota está en contacto con la línea.
+Si segmentamos una imagen del video en la cual está nuestro punto de interés, estaremos aislando la pelota del fondo de la cancha en el video. Esto simplifica la tarea de identificar cuándo la pelota está en contacto con la línea. Para lograr esto podemos emplear la segmentacion de los contornos del balón, usando la funcion findContours de openCV
 
 * Cambio de posición:
-Si un objeto, como una pelota, se mueve de manera notable, generará grande cambios en los píxeles de la imagen entre un frame y el siguiente. Por lo que, sabiendo esto, podriamos desarrollar un algoritmo capaz que identificar estos cambios.
+Si un objeto, como una pelota, se mueve de manera notable, generará grande cambios en los píxeles de la imagen entre un frame y el siguiente. Por lo que, sabiendo esto, podriamos usar un algoritmo ya existente para identificar estos cambios, es posible usar el algoritmo de Kalman o el seguimiento de puntos clave.
 
 * Deep learning (Opcional, lo estamos conversando):
 Encontramos un proyecto bastante similar, el cual enseñaba a una computadora a seguir una imagen. Nos parece algo muy útil, pero no entendemos muy bien esta tecnología ni cómo debemos entrenarla. (Dejar el link)
