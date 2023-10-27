@@ -5,3 +5,5 @@ Interfaz: tal como lo dice la carpeta solo se encuentra la interfaz donde se pue
 Yolov8: Incluye un video de prueba para el seguimiento del balon con el modelo entrenado ambos dentro de la carpeta con el codigo de prueba
 
 Interfaz+Yolov8: Es la union de las dos anteriores donde a la interfaz se hace la seleccion del video, se procesa por el modelo entrenado y finalmente se ve el video ya procesado mas la detccion por color de la linea de fondo.
+
+Región de interes:
