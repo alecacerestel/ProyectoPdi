@@ -29,7 +29,7 @@ def get_four_points(im):
     return points
 
 # Read in the image.
-im_src = cv2.imread("cancha4.jpeg")
+im_src = cv2.imread("cancha2.jpg")
 
 # Destination image
 size = (1200,400,3)
@@ -47,9 +47,8 @@ pts_dst = np.array(
                     )
 
 
-print ("Click on the four corners of the court -- top left first and bottom left last -- and then hit ENTER")
-
-# Show image and wait for 4 clicks.
+# Muestra la imagen original y obtiene 4 puntos a partir de 4 clicks en la imagen, empezando por la esquina 
+# superior izquierda de la cancha y luego se sigue en sentido antihorario
 cv2.imshow("Image", im_src)
 pts_src = get_four_points(im_src)
 
