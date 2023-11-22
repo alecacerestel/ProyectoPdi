@@ -29,7 +29,7 @@ def get_four_points(im):
     return points
 
 # Read in the image.
-im_src = cv2.imread("cancha2.jpg")
+im_src = cv2.imread("cancha8.png")
 
 # Destination image
 size = (1200,400,3)
