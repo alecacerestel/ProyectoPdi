@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import Funcion_homografia
+
 
 def mouse_handler(event, x, y, flags, data) :
     if event == cv2.EVENT_LBUTTONDOWN :
@@ -25,7 +25,7 @@ def get_four_points(im):
 def homography_from_image(im_src):
     # Destination image
     im= cv2.imread(im_src)
-    size = (1200, 400, 3)
+    size = (800, 400, 3)
     im_dst = np.zeros(size, np.uint8)
     
     pts_dst = np.array(
