@@ -8,6 +8,8 @@ def mouse_handler(event, x, y, flags, data) :
         cv2.imshow("Image", data['im'])
         if len(data['points']) < 4 :
             data['points'].append([x,y])
+        if len(data['points'])==4:
+            cv2.destroyAllWindows()
 
 def get_four_points(im):
     data = {}
@@ -48,6 +50,6 @@ def homography_from_image(im_src):
     im_dst = cv2.warpPerspective(im, h, size[0:2])
 
     # Show the output
-    cv2.imshow("Image", im_dst)
-    cv2.waitKey(0)
+    #cv2.imshow("Image", im_dst)
+    #cv2.waitKey(0)
     return im_dst
