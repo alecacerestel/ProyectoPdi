@@ -7,9 +7,27 @@ Para el correcto funcionamiento del codigo es necesario considerar algunas cosas
 
 2. El tiempo de ejecución varía según la duración del video que se desea reproducir, y de los frames que lo constituyan.
 
-Pero lo que hace el modelo de entrenamiento es crear un nuevo video y lo guarda siempre otra carpeta con el video elegido y la deteccion del balon en el, entonces el codigo esta hecho hasta el momento que abra el archivo que se guarda en cierta direccion y que ese sea mostrado en la interfaz. De querer probar otro video seria necesario cambiar la linea en el codigo donde se indica la direccion de donde se va a abrir el video.
+3. Para reiniciar el video, es recomendable el uso de "Stop" y luego "Start".
 
-Por lo que se recomienda utilizar los videos de prueba
+4. No es necesario presionar el botón de "Start" para iniciar la primera reproducción del video, luego si se desea repetir, es posible reiniciarlo aplicando la indicacion número 3.
 
-Se deben agregar las siguientes librerias antes de ejecutar el código: 
-pip install python-vlc opencv-python-headless numpy pillow ultralytics
+5. Es recomendable usar alguno de los videos de prueba, o idealmente, un video con un balón de volleyball presente.
+
+# Guia de la interfaz
+
+- La interfaz tendra un botón que indica "select file", con el cual es posible elegir el video que se desea procesar
+
+- Una vez este seleccionado el video podemos usar los demas botones de la interfaz, dentro de los cuales se haya:
+- 1. El boton "Pause/Resume" cuya función es la de detener o continuar la reproducción del video
+  2. El botón "Stop" que detiene por completo el video y el botón "Start" cuya función es iniciar la reproducción del video
+  3. Los botones "Fast forward" y "Rewind" que sirven para saltar una cierta cantidad de segundos dentro del video (hacia atrás o hacia adelante).
+  4. El botón "Apply YOLO" cuya función es la de iniciar el procesamiento de YOLO para la detección del balón de volleyball.
+  5. El botón de "Take screenshot" para tomar una captura de un momento exacto del video (un frame)
+
+## Procesamiento YOLO
+
+Una vez este iniciado el video, para dar comienzo al uso de YOLO es necesario presionar el botón de "Apply YOLO", cabe mencionar que el procesamiento toma tiempo dependiendo de las características del computador donde se ejecuta el proyecto, como de las características del video.
+
+## Empleo de Homografía
+
+Para obtener el plano 2D de un momento exacto del video, es necesario pausar el video, usar el botón "Take screenshot" y luego revisar 
