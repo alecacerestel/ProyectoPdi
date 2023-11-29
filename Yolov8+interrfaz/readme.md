@@ -18,7 +18,7 @@ Para el correcto funcionamiento del codigo es necesario considerar algunas cosas
 - La interfaz tendra un botón que indica "select file", con el cual es posible elegir el video que se desea procesar
 
 - Una vez este seleccionado el video podemos usar los demas botones de la interfaz, dentro de los cuales se haya:
-- 1. El boton "Pause/Resume" cuya función es la de detener o continuar la reproducción del video
+  1. El boton "Pause/Resume" cuya función es la de detener o continuar la reproducción del video
   2. El botón "Stop" que detiene por completo el video y el botón "Start" cuya función es iniciar la reproducción del video
   3. Los botones "Fast forward" y "Rewind" que sirven para saltar una cierta cantidad de segundos dentro del video (hacia atrás o hacia adelante).
   4. El botón "Apply YOLO" cuya función es la de iniciar el procesamiento de YOLO para la detección del balón de volleyball.
