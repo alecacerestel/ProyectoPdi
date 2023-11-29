@@ -15,5 +15,7 @@ Para esto lo primero es dirigirse a la carpeta de "Interfaz+YoloV8", y abrir el 
 !pip install tk
 !pip install python-vlc
 !pip install ultralytics-yolov5
+!pip install opencv-python-headless
+!pip install numpy
 ````
 Antes de iniciar el código es recomendable leer el readme.md presente dentro de la carpeta Interfaz+Yolov8 ya que éste se especializa en explicar más a detalle el funcionamiento.
