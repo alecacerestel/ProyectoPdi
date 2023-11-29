@@ -20,6 +20,10 @@ Para esto lo primero es dirigirse a la carpeta de "Interfaz+YoloV8", y abrir el 
 !pip install numpy
 ````
 
+# Demostración visual del funcionamiento
+
+https://youtu.be/6wESs55BeuE?si=aWzDbTsxb2A1hxz2
+
 # Explicacion y funcionamiento del código:
 
 ## Indicaciones importantes
