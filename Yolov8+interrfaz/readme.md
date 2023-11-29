@@ -14,7 +14,7 @@ Para el correcto funcionamiento del codigo es necesario considerar algunas cosas
 5. Es recomendable usar alguno de los videos de prueba, o idealmente, un video con un balón de volleyball presente.
 
 6. Si llega a haber algún problema con la instalación de una librería o función, es importante asegurarse de tener presente el archivo de Homografia.py presente en la carpeta, además de haber realizado los pip install indicados en el READme del proyecto.
-# Guia de la interfaz
+## Guia de la interfaz
 
 - La interfaz tendra un botón que indica "select file", con el cual es posible elegir el video que se desea procesar
 
