@@ -10,8 +10,10 @@
 
 # Como ejecutar el código
 Para esto lo primero es dirigirse a la carpeta de "Interfaz+YoloV8", y abrir el archivo "versionFinal_Interfaz+yolov8.ipynb", cabe mencionar que lo primero es tener ejecutado el kernel de jupyter en la terminal usando "jupyter notebook" en el símbolo del sistema. Las librerías que son necesarias para ejecutar el código se pueden instalar ejecutando las siguientes líneas de codigo dentro de versionFinal_Interfaz+yolov8.ipynb (antes de la ejecución del proyecto):
+````
 !pip install pillow
 !pip install tk
 !pip install python-vlc
 !pip install ultralytics-yolov5
+````
 Antes de iniciar el código es recomendable leer el readme.md presente dentro de la carpeta Interfaz+Yolov8 ya que éste se especializa en explicar más a detalle el funcionamiento.
