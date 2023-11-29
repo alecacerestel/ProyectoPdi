@@ -22,7 +22,7 @@ Para esto lo primero es dirigirse a la carpeta de "Interfaz+YoloV8", y abrir el 
 
 # Demostración visual del funcionamiento
 
-[![Alt text](https://img.youtube.com/vi/aWzDbTsxb2A1hxz2/0.jpg)](https://www.youtube.com/watch?v=aWzDbTsxb2A1hxz2)
+[![Alt text](https://img.youtube.com/vi/6wESs55BeuE/0.jpg)](https://www.youtube.com/watch?v=6wESs55BeuE)
 
 # Explicacion y funcionamiento del código:
 
